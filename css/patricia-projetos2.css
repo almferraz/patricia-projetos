@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* página em construção*/
+/* .construcao {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+} */
+/*Fim construcao */
+
+/*Início desenvolvimento*/
+/*Classes*/
+/* body {
+  background: black;
+} */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.header .topo img {
+  width: 150px;
+}
+.topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topo ul {
+  display: flex;
+}
+.topo ul li {
+  margin: 0 0 0 25px;
+  font-size: 20px;
+  list-style: none;
+}
+.topo img {
+  margin: 15px 0 0 0;
+}
+.topo ul li a {
+  text-decoration: none;
+  color: #ec268f;
+}
+.topo ul li a:hover {
+  color: #727376;
+}
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container div.banner img {
+  width: 960px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+/*Ids*/
+header {
+  width: 100%;
+  height: 160px;
+  background: khaki;
+}
+
+/*Fim do desenvolvimento */
+/*simple-slide*/
+.js [data-slide] {
+  position: relative;
+}
+.js [data-slide] > * {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 0.5s;
+  z-index: 1;
+  pointer-events: auto;
+}
+
+.js [data-slide-nav] {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.js [data-slide-nav] > button {
+  display: inline-block;
+  width: 12px;
+  margin: 4px;
+  height: 12px;
+  border: none;
+  padding: 0px;
+  border-radius: 6px;
+  background: #1d1d1d;
+  text-indent: -100px;
+  overflow: hidden;
+}
+.js [data-slide-nav] > button.active {
+  background: #fb010d;
+}
+
+.js [data-anime] {
+  opacity: 0;
+}
+.js .anime {
+  opacity: 1;
+  transition: opacity 800ms;
+}
+
+/*fim do javascript*/
+/*mobile construção*/
+@media (max-width: 414px) and (orientation: portrait) {
+  body {
+    width: 100%;
+    margin: auto;
+  }
+  img {
+    width: 250px;
+  }
+  .construcao {
+    max-width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .container div.banner img {
+    width: 100%;
+    /* height: 500px; */
+    display: flex;
+    justify-content: center;
+  }
+  .topo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .topo ul li {
+    margin: 0 0 0 15px;
+  }
+  /*fim mobile construção*/
+}
