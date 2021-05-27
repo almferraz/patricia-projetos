@@ -58,12 +58,96 @@
   display: flex;
   justify-content: center;
 }
+.citacao {
+  width: 960px;
+}
+.citacao p {
+  max-width: 700px;
+  font-size: 1.7em;
+  color: #727376;
+  text-align: center;
+  line-height: 1.3;
+  margin: auto;
+  padding: 50px 0;
+}
+.divisao {
+  width: 960px;
+  height: 2px;
+  margin: auto;
+  background-color: #ec268f;
+}
+.servicos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.icones-servicos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 185px;
+  border: 1px solid #727376;
+  padding: 20px 20px;
+  margin: 5px;
+}
+.icones-servicos a {
+  cursor: pointer;
+}
+/* #serviso .servicos {
+  margin: 20px 0;
+} */
+.icones-servicos .p-servicos {
+  padding-bottom: 25px;
+}
+.icones-servicos img {
+  padding-bottom: 25px;
+  width: 100px;
+}
+.icones-servicos .btn-saiba-mais {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 200px;
+  height: 50px;
+  background: black;
+  color: white;
+}
+#nossos-clientes {
+  margin: auto;
+  font-size: 1.7em;
+  color: #727376;
+}
+h2 {
+  text-align: center;
+  margin: auto;
+  padding: 30px 20px;
+  color: black;
+}
+#nossos-clientes li {
+  list-style: circle;
+  margin-left: 30px;
+  padding: 5px 0;
+}
+#portfolio {
+  text-align: center;
+}
+#portfolio img {
+  width: 100px;
+  padding: 5px;
+}
 
 /*Ids*/
 header {
   width: 100%;
   height: 160px;
-  background: khaki;
+  background: black;
+}
+#servicos {
+  width: 960px;
+  height: auto;
+  padding: 20px;
 }
 
 /*Fim do desenvolvimento */
@@ -114,6 +198,12 @@ header {
   opacity: 1;
   transition: opacity 800ms;
 }
+footer {
+  width: 100%;
+  height: 350px;
+  background: black;
+  color: wheat;
+}
 
 /*fim do javascript*/
 /*mobile construção*/
@@ -124,6 +214,10 @@ header {
   }
   img {
     width: 250px;
+  }
+  header {
+    width: 100%;
+    margin: auto;
   }
   .construcao {
     max-width: 100%;
@@ -147,9 +241,34 @@ header {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    margin: auto;
   }
   .topo ul li {
     margin: 0 0 0 15px;
   }
+  .container-citacao {
+    width: 100%;
+    margin: auto;
+  }
+  .divisao {
+    width: 300px;
+  }
+  .servicos {
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+  }
+  #servicos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+  .icones-servicos {
+    width: 300px;
+  }
+
   /*fim mobile construção*/
 }
