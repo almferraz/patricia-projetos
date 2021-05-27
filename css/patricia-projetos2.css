@@ -114,12 +114,22 @@
   background: black;
   color: white;
 }
+.btnGaleria {
+  margin: 20px 20px;
+  width: 130px;
+  height: 50px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
 #nossos-clientes {
   margin: auto;
   font-size: 1.7em;
   color: #727376;
 }
 h2 {
+  font-size: 40px;
   text-align: center;
   margin: auto;
   padding: 30px 20px;
@@ -134,8 +144,8 @@ h2 {
   text-align: center;
 }
 #portfolio img {
-  width: 100px;
-  padding: 5px;
+  width: 180px;
+  padding: 3px;
 }
 
 /*Ids*/
@@ -269,6 +279,25 @@ footer {
   .icones-servicos {
     width: 300px;
   }
-
+  #portfolio img {
+    width: 70px;
+    padding: 3px;
+  }
+  .btnGaleria {
+    margin: 3px 3px;
+    width: 135px;
+    height: 50px;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    background: black;
+    color: wheat;
+  }
+  #nossos-clientes {
+    margin: auto;
+    font-size: 1em;
+  }
   /*fim mobile construção*/
 }
