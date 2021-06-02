@@ -14,29 +14,31 @@
 
 <body>
   <header class="header ">
-    <div class="topo container">
-
+    <div id="menu-bar" class="topo container">
       <div class="logo">
-        <a href="index2.html"> <img src="img/logo5.svg" alt=""></a>
+        <a href="index2.html">
+          <a href="#home"> <img src="img/logo5.svg" alt=""></a>
       </div>
-      <nav>
-        <ul>
-          <li><a href="header">Home</a></li>
-          <li><a href="#servicos">Serviços</a></li>
-          <li><a href="#nossos-clientes">Nossos Clientes</a></li>
-          <li><a href="#portfolio">Portfólio</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
 
-      </nav>
-      <div class="menuHb">
-        <a><img src="img/icones/menuHb.svg" alt=""></a>
+      <div id="menu" onclick="onClickMenu()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
       </div>
+      <ul class="nav " id="nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#nossos-clientes">Nossos Clientes</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+
     </div>
+    <div class="menu-bg" id="menu-bg"></div>
   </header>
 
   <section>
-    <div class="container data-slide=" banner">
+    <div class="container ">
       <div class="banner " data-slide="portfolio">
         <img src=" img/slide/slide-1.jpg" alt="slide-1">
         <img src="img/slide/slide-2.jpg" alt="slide-2">
@@ -45,15 +47,14 @@
         <img src="img/slide/slide-5.jpg" alt="slide-5">
         <img src="img/slide/slide-6.jpg" alt="slide-6">
         <img src="img/slide/slide-7.jpg" alt="slide-7">
-
-
-
       </div>
     </div>
   </section>
 
 
-
+  <script src="js/simple-slide.js"></script>
+  <script src="js/simple-anime.js"></script>
+  <script src="js/script.js"></script>
 
   <div class=" container citacao">
     <p id="citacao">“Projeto para mim, é uma expressão artística. É mais que trabalho, é amor pelo que eu faço. Entendo que preciso estar atenta para absorver a expectativa do cliente, para isso preciso me atualizar, evoluir a cada dia.”<br /><br />
@@ -170,28 +171,55 @@
   <div id="portfolio" class="container">
     <h2>PORTFÓLIO</h2>
 
-    <div class="menuGaleria">
-      <a class="btnGaleria" id="fachadas">FACHADAS</a>
-      <a class="btnGaleria" id="interiores">INTERIORES</a>
-      <a class="btnGaleria" id="apartamentos">APARTAMENTOS</a>
-      <a class="btnGaleria" id="obras">OBRAS</a>
-      <a class="btnGaleria" id="grupoGerador">GRUPO GERADOR</a>
+    <div>
+      <button class="btnGaleria">FACHADAS</button>
+      <button class="btnGaleria">INTERIORES</button>
+      <button class="btnGaleria">APARTAMENTOS</button>
+      <button class="btnGaleria">OBRAS</button>
+      <button class="btnGaleria">GRUPO GERADOR</button>
+
+
     </div>
-    <div id="galeria">
+
+    <img src="img/galeria/img.jpg" alt="">
+    <img src="img/galeria/img.jpg" alt="">
+    <img src="img/galeria/img.jpg" alt="">
+    <img src="img/galeria/img.jpg" alt="">
+    <img src="img/galeria/img.jpg" alt="">
+    <img src="img/galeria/img.jpg" alt="">
+    <img src="img/galeria/img.jpg" alt="">
+    <img src="img/galeria/img.jpg" alt="">
+    <img src="img/galeria/img.jpg" alt="">
+    <img src="img/galeria/img.jpg" alt="">
+    <img src="img/galeria/img.jpg" alt="">
+    <img src="img/galeria/img.jpg" alt="">
+    <img src="img/galeria/img.jpg" alt="">
+    <img src="img/galeria/img.jpg" alt="">
+    <img src="img/galeria/img.jpg" alt="">
+    <img src="img/galeria/img.jpg" alt="">
+    <img src="img/galeria/img.jpg" alt="">
+    <img src="img/galeria/img.jpg" alt="">
+    <img src="img/galeria/img.jpg" alt="">
+    <img src="img/galeria/img.jpg" alt="">
+    <img src="img/galeria/img.jpg" alt="">
+    <img src="img/galeria/img.jpg" alt="">
+    <img src="img/galeria/img.jpg" alt="">
+    <img src="img/galeria/img.jpg" alt="">
+    <img src="img/galeria/img.jpg" alt="">
+
+
+  </div>
+
+
+
+
+  <footer>
+    <div class="container">
+      <p>Todos os direitos reservados - Patrícia Projetos</p>
+      <p>Rocha Sistema - by almferraz</p>
     </div>
+  </footer>
 
-
-    <footer>
-      <div class="container">
-        <p>Todos os direitos reservados - Patrícia Projetos</p>
-        <p>Rocha Sistema - by almferraz</p>
-      </div>
-    </footer>
-
-
-    <script src="js/simple-slide.js"></script>
-    <script src="js/simple-anime.js"></script>
-    <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: auto;
+  margin-top: 150px;
+}
+img {
+  width: 500px;
+}
+
+.construcao {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#win {
+  width: 150px;
+}
+@media (max-width: 550px) and (orientation: portrait) {
+  body {
+    width: 100%;
+    height: 500px;
+    margin-top: 0 15px;
+  }
+  img {
+    width: 250px;
+  }
+  .construcao {
+    max-width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #win {
+    width: 80px;
+  }
+}
