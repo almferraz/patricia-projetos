@@ -71,6 +71,9 @@ footer {
   width: 200px;
   height: 200px;
 }
+#banner {
+  padding-top: 70px;
+}
 
 /* Classes */
 .topo div.menuHb {
@@ -212,7 +215,7 @@ footer {
   height: 35px;
 }
 .form input {
-  width: 60%;
+  width: 70%;
   height: 50px;
   color: #727376;
   border: none;
@@ -223,6 +226,7 @@ footer {
   border: none;
 }
 .form div textarea {
+  padding: 0 15px;
   width: 70%;
   height: 150px;
   border: solid 1px #727376;
@@ -236,6 +240,28 @@ footer {
   background: black;
   color: white;
   margin-bottom: 8px;
+}
+.icones_redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icones_redes p {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.redes_sociais p {
+  margin: 20px;
+}
+.redes_sociais img {
+  width: 60px;
+  height: 60px;
+  border: solid 1px black;
+  border-radius: 15%;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
 }
 /*simple-slide*/
 .js [data-slide] {
