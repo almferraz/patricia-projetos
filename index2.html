@@ -19,7 +19,7 @@
       <div class="logo">
         <a href="index2.html"> <img src="img/logo5.svg" alt=""></a>
       </div>
-      <nav>
+      <nav class="js-menu">
         <ul>
           <li><a href="#banner">Home</a></li>
           <li><a href="#servicos">Serviços</a></li>
@@ -30,12 +30,12 @@
 
       </nav>
       <div class="menuHb">
-        <a><img src="img/icones/menuHb.svg" alt=""></a>
+        <!-- <a><img src="img/icones/menuHb.svg" alt=""></a> -->
       </div>
     </div>
   </header>
 
-  <section id="banner">
+  <div id="banner">
     <div class="container data-slide=" banner">
       <div class="banner " data-slide="portfolio">
         <img src=" img/slide/slide-1.jpg" alt="slide-1">
@@ -47,7 +47,7 @@
         <img src="img/slide/slide-7.jpg" alt="slide-7">
       </div>
     </div>
-  </section>
+  </div>
 
   <div class=" container citacao">
     <p id="citacao">“Projeto para mim, é uma expressão artística. É mais que trabalho, é amor pelo que eu faço. Entendo que preciso estar atenta para absorver a expectativa do cliente, para isso preciso me atualizar, evoluir a cada dia.”<br /><br />
@@ -61,7 +61,7 @@
     <div class="icones-servicos">
       <img src="img/icones/projeto.svg" alt="">
       <p class="p-servicos">Projetos</p>
-      <a>
+      <a id="btn_projeto">
         <div class="btn-saiba-mais">
           <p>- saiba mais -</p>
         </div>
@@ -71,16 +71,16 @@
     <div class="icones-servicos">
       <img src="img/icones/adm-obras.svg" alt="">
       <p class="p-servicos">Adm. de Obras</p>
-      <a>
+      <a id="btm_adm_obras">
         <div class="btn-saiba-mais">
           <p>- saiba mais -</p>
         </div>
       </a>
     </div>
     <div class="icones-servicos">
-      <img src="img/icones/adm-obras.svg" alt="">
+      <img src="img/icones/adm.svg" alt="">
       <p class="p-servicos">Adm.</p>
-      <a>
+      <a id="btn_adm">
         <div class="btn-saiba-mais">
           <p>- saiba mais -</p>
         </div>
@@ -89,7 +89,7 @@
     <div class="icones-servicos">
       <img src="img/icones/alvenaria.svg" alt="">
       <p class="p-servicos">Alvenaria</p>
-      <a>
+      <a id="btn_alvenaria">
         <div class="btn-saiba-mais">
           <p>- saiba mais -</p>
         </div>
@@ -98,7 +98,7 @@
     <div class="icones-servicos">
       <img src="img/icones/eletrica.svg" alt="">
       <p class="p-servicos">Elétrica</p>
-      <a>
+      <a id="btn_eletrica">
         <div class="btn-saiba-mais">
           <p>- saiba mais -</p>
         </div>
@@ -107,7 +107,7 @@
     <div class="icones-servicos">
       <img src="img/icones/marcenaria.svg" alt="">
       <p class="p-servicos">marcenaria</p>
-      <a>
+      <a id="btn_marcenaria">
         <div class="btn-saiba-mais">
           <p>- saiba mais -</p>
         </div>
@@ -116,16 +116,16 @@
     <div class="icones-servicos">
       <img src="img/icones/pintura.svg" alt="">
       <p class="p-servicos">Pintura</p>
-      <a>
+      <a id="btn_pintura">
         <div class="btn-saiba-mais">
           <p>- saiba mais -</p>
         </div>
       </a>
     </div>
     <div class="icones-servicos">
-      <img src="img/icones/projeto.svg" alt="">
-      <p class="p-servicos">Adm.</p>
-      <a>
+      <img src="img/icones/grupo_gerador.svg" alt="">
+      <p class="p-servicos">Grupo Gerador</p>
+      <a id="btn_grupo_gerador">
         <div class="btn-saiba-mais">
           <p>- saiba mais -</p>
         </div>
@@ -151,6 +151,10 @@
     <div id="galeria">
     </div>
   </div>
+
+  <div class="divisao">
+  </div>
+
   <div id="nossos-clientes" class="container">
     <h2>NOSSOS CLIENTES</h2>
     <ul>
@@ -217,10 +221,10 @@
     </div>
   </div>
 
-  <footer>
-    <div>
-      <p>Todos os direitos reservados - Patrícia Projetos</p>
-      <p>Rocha Sistema - by almferraz</p>
+  <footer id="footer">
+    <div class="container">
+      <p>Todos os direitos reservados - Patrícia Projetos - Rocha Sistema - by almferraz</p>
+
     </div>
   </footer>
 

@@ -38,11 +38,10 @@ header {
 }
 footer {
   width: 100%;
-  height: 350px;
+  height: 100px;
   background: black;
-  color: wheat;
+  color: white;
 }
-
 /*Ids*/
 
 #nossos-clientes li {
