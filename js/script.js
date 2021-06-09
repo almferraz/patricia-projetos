@@ -73,6 +73,25 @@ btArrayBotoes.forEach(function (obj, index) {
   // console.log(obj[2]);
 });
 
+// navegação por Tab - saiba mais
+const jsServicos = document.querySelectorAll('#servicos .js-servicos a');
+const jsTabContent = document.querySelectorAll(
+  '#servicos .js-servicos .js-tabContent .descricao',
+);
+jsTabContent[0].classList.add('ativo');
+
+function activeTab(index) {
+  jsTabContent.forEach((descricao) => {
+    descricao.classList.remove('ativo');
+  });
+  jsTabContent[index].classList.add('ativo');
+}
+jsServicos.forEach((itemMenu, index) => {
+  itemMenu.addEventListener('click', () => {
+    activeTab(index);
+  });
+});
+
 // Scroll Suave para links Internos
 function initScrollSuave() {
   const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
